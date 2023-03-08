@@ -7,10 +7,7 @@
     "strict": true,
     "esModuleInterop": true,
     "module": "CommonJS",
-    "typeRoots": [
-      "./src/myPackage.d.ts", "types"
-    ],
-    "rootDir": "./src",                                  /* Specify the root folder within your source files. */
+    /* Specify the root folder within your source files. */
     /* Projects */
     // "incremental": true,                              /* Save .tsbuildinfo files to allow for incremental compilation of projects. */
     // "composite": true,                                /* Enable constraints that allow a TypeScript project to be used with project references. */
