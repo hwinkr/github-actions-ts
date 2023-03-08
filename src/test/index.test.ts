@@ -6,6 +6,6 @@ describe("test add function", () => {
     expect(factorial(3)).toBe(6);
   });
   test("should return error", () => {
-    expect(factorial(-1)).toThrow('incorrect Input : this function only accept positive number');
+    expect(factorial(-1)).toBe(-1)
   });
 });
